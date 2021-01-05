@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
+import About from "./components/About";
 import { Redirect, Switch, Route, Link, useRoute, Router } from "wouter";
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/about">
-          <NavBar />
+          <About />
         </Route>
         <Route path="/skills">
           <NavBar />
