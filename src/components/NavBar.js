@@ -19,7 +19,7 @@ let ToolBar = styled.div`
 
 let Logo = styled.div`
   position: absolute;
-  width: 50px;
+  width: 180px;
   height: 50px;
   left: 168px;
   top: 15px;
@@ -27,6 +27,19 @@ let Logo = styled.div`
   border: 1px solid #ff9442;
   box-sizing: border-box;
   border-radius: 8px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 60px;
+  /* identical to box height */
+
+  color: #ff9442;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 let Button = styled.button`
@@ -79,7 +92,7 @@ function NavBar() {
           alignItems: "center",
         }}
       >
-        <Logo />
+        <Logo>danlopesb</Logo>
         <ActiveLink href="/">Home</ActiveLink>
         <ActiveLink href="/about">About</ActiveLink>
         <ActiveLink href="/skills">Skills</ActiveLink>
