@@ -21,7 +21,7 @@ let Logo = styled.div`
   position: absolute;
   width: 180px;
   height: 50px;
-  left: 168px;
+  left: 163px;
   top: 15px;
 
   border: 1px solid #ff9442;
