@@ -49,12 +49,13 @@ let TechsContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
 
   //background-color: blue;
 `;
 
 let TechBox = styled.img`
+  margin-top: 20px;
   width: 200px;
   height: 200px;
 

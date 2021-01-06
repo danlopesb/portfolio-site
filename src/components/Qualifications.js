@@ -45,7 +45,7 @@ let SmallContainer = styled.div`
   width: 70vw;
   height: 350px;
   left: 15vw;
-  top: 300px;
+  top: 280px;
 
   display: flex;
   flex-direction: row;
