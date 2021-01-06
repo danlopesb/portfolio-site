@@ -61,6 +61,10 @@ let TechBox = styled.img`
   background: #ffffff;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
+
+  &:hover {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+  }
 `;
 
 function Skills() {
@@ -70,10 +74,35 @@ function Skills() {
         <NavBar />
         <Title>Technologies I Use</Title>
         <TechsContainer>
-          <TechBox src={react} />
-          <TechBox src={node} style={{ objectFit: "contain" }} />
-          <TechBox src={arduino} style={{ objectFit: "contain" }} />
-          <TechBox src={cadence} style={{ objectFit: "contain" }} />
+          <TechBox
+            src={react}
+            onClick={() => {
+              window.open("https://reactjs.org/");
+            }}
+          />
+          <TechBox
+            src={node}
+            style={{ objectFit: "contain" }}
+            onClick={() => {
+              window.open("https://nodejs.org/en/");
+            }}
+          />
+          <TechBox
+            src={arduino}
+            style={{ objectFit: "contain" }}
+            onClick={() => {
+              window.open("https://www.arduino.cc/");
+            }}
+          />
+          <TechBox
+            src={cadence}
+            style={{ objectFit: "contain" }}
+            onClick={() => {
+              window.open(
+                "https://www.cadence.com/ko_KR/home/tools/custom-ic-analog-rf-design/circuit-design/virtuoso-analog-design-environment.html"
+              );
+            }}
+          />
         </TechsContainer>
       </Container>
     </div>

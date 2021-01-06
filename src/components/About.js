@@ -56,7 +56,7 @@ let Title2 = styled.div`
   width: 275px;
   height: 36px;
   left: 738px;
-  top: 390px;
+  top: 420px;
 
   font-family: Poppins;
   font-style: normal;
@@ -87,7 +87,7 @@ let Body1 = styled.div`
 let ContactInfoContainer = styled.div`
   position: absolute;
   left: 738px;
-  top: 430px;
+  top: 460px;
 
   display: flex;
   flex: 1;
@@ -142,10 +142,11 @@ function About() {
         <Intro>My Intro</Intro>
         <Title1>About Me</Title1>
         <Body1>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna duis
-          convallis convallis tellus id interdum velit laoreet id. Et tortor at
-          risus viverra adipiscing. Nullam vehicula ipsum a arcu cursus vitae.
+          Hi! My name is Danilo Lopes Barbosa, I'm a computer engineer graduated
+          from the Federal University of Itajubá with a thesis on
+          microelectronics. As a programmer I have experience with technologies
+          such as Node, React, and React native, having developed and mantained
+          apps and web pages for companies like Nice Alarm Systems and Alcoa.
         </Body1>
         <Title2>Contact</Title2>
         <ContactInfoContainer>

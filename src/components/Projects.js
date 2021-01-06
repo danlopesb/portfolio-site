@@ -75,6 +75,10 @@ let ProjectBox = styled.img`
   background: #ffffff;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
+
+  &:hover {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+  }
 `;
 
 let QualiBody = styled.text`
@@ -97,15 +101,34 @@ function Projects() {
         <Title>Recent Projects</Title>
         <ProjectsContainer>
           <ProjectBoxContainer>
-            <ProjectBox src={nice} />
+            <ProjectBox
+              src={nice}
+              onClick={() => {
+                window.open(
+                  "https://nice.com.br/produto/especialista-nice-2-0/"
+                );
+              }}
+            />
             <QualiBody>Recent work</QualiBody>
           </ProjectBoxContainer>
           <ProjectBoxContainer>
-            <ProjectBox src={tfg} style={{ objectFit: "contain" }} />
+            <ProjectBox
+              src={tfg}
+              style={{ objectFit: "contain" }}
+              onClick={() => {
+                window.open("https://www.overleaf.com/read/fbryvjccsqvj");
+              }}
+            />
             <QualiBody>Graduation Thesis</QualiBody>
           </ProjectBoxContainer>
           <ProjectBoxContainer>
-            <ProjectBox src={github} style={{ objectFit: "contain" }} />
+            <ProjectBox
+              src={github}
+              style={{ objectFit: "contain" }}
+              onClick={() => {
+                window.open("https://github.com/danlopesb");
+              }}
+            />
             <QualiBody>GitHub Page</QualiBody>
           </ProjectBoxContainer>
         </ProjectsContainer>

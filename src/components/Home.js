@@ -87,10 +87,14 @@ let Retangulo = styled.div`
   position: absolute;
   width: 500px;
   height: 500px;
-  left: 733px;
+  left: ${(props) => (props.left ? "733px" : "933.55px")};
   top: ${(props) => (props.top ? "173.55px" : "353.55px")};
 
-  background: linear-gradient(135.04deg, #ffa35c 0%, #ff9442 99.98%);
+  background: linear-gradient(135.04deg, #ffa35c 10%, #ff9442 90%);
+  /* background: ${(props) =>
+    props.opaco
+      ? "linear-gradient(135.04deg, #ffa35c 0%, #ff9442 99.98%)"
+      : "linear-gradient(135.04deg, #ffa35c 10%, #ff9442 90%)"}; */
   border-radius: 16px;
   transform: rotate(-45deg);
 `;
@@ -110,8 +114,9 @@ function Home() {
         <NavBar />
         <Name>Danilo Lopes</Name>
         <Title>Full Stack Developer and Computer Engineer</Title>
-        <Button primary>Download CV</Button>
-        <Button style={{ left: "361px", top: "551px" }}>Contact Me</Button>
+        {/* <Button primary>Download CV</Button>
+        <Button style={{ left: "361px", top: "551px" }}>Contact Me</Button> */}
+        <Retangulo top left></Retangulo>
         <Retangulo top></Retangulo>
         <Dots src={background} />
         <Dots src={background} top />
