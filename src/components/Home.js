@@ -4,6 +4,8 @@ import { useState } from "react";
 import styled from "@emotion/styled";
 import { Redirect, Switch, Route, Link, useRoute, Router } from "wouter";
 import background from "./../assets/dottedBackground.png";
+import { RiLinkedinBoxLine } from "react-icons/ri";
+import { AiOutlineSearch } from "react-icons/ai";
 
 let Container = styled.div`
   position: absolute;
@@ -51,18 +53,24 @@ let Title = styled.div`
 
 let ButtonsContainer = styled.div`
   position: absolute;
-  width: 535px;
+  width: 400px;
   height: 48px;
   left: 168px;
   top: 551px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  //background-color: red;
 `;
 
 let Button = styled.button`
-  position: absolute;
+  //position: absolute;
   width: 145px;
   height: 50px;
-  left: 168px;
-  top: 551px;
+  //left: 168px;
+  //top: 551px;
 
   background: ${(props) => (props.primary ? "#FF9442" : "#FFFFFF")};
   //box-shadow: 3px 3px 6px rgba(255, 148, 66, 0.25);
@@ -77,6 +85,10 @@ let Button = styled.button`
   font-size: 18px;
   line-height: 27px;
   color: ${(props) => (props.primary ? "#FFFFFF" : "#FF9442")};
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 
   &:hover {
     color: #998a8a;
@@ -114,8 +126,27 @@ function Home() {
         <NavBar />
         <Name>Danilo Lopes</Name>
         <Title>Full Stack Developer and Computer Engineer</Title>
-        {/* <Button primary>Download CV</Button>
-        <Button style={{ left: "361px", top: "551px" }}>Contact Me</Button> */}
+        <ButtonsContainer>
+          <Button
+            primary
+            onClick={() => {
+              window.open(
+                "http://www.linkedin.com/in/danilo-lopes-barbosa-48643113b"
+              );
+            }}
+          >
+            <RiLinkedinBoxLine style={{ height: "30px", width: "30%" }} />
+            LinkedIn
+          </Button>
+          <Button
+            onClick={() => {
+              window.open("http://lattes.cnpq.br/2927241181154812");
+            }}
+          >
+            <AiOutlineSearch style={{ height: "30px", width: "30%" }} />
+            CV Lattes
+          </Button>
+        </ButtonsContainer>
         <Retangulo top left></Retangulo>
         <Retangulo top></Retangulo>
         <Dots src={background} />

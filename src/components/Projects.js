@@ -6,6 +6,7 @@ import { Redirect, Switch, Route, Link, useRoute, Router } from "wouter";
 import nice from "./../assets/nice.png";
 import tfg from "./../assets/tfg.png";
 import github from "./../assets/github.png";
+import nano from "./../assets/nano.jpg";
 
 let Container = styled.div`
   position: absolute;
@@ -109,7 +110,16 @@ function Projects() {
                 );
               }}
             />
-            <QualiBody>Recent work</QualiBody>
+            <QualiBody>Nice App</QualiBody>
+          </ProjectBoxContainer>
+          <ProjectBoxContainer>
+            <ProjectBox
+              src={nano}
+              onClick={() => {
+                window.open("https://www.youtube.com/watch?v=XdcAfbUYf0w");
+              }}
+            />
+            <QualiBody>Nano Proxy Creator</QualiBody>
           </ProjectBoxContainer>
           <ProjectBoxContainer>
             <ProjectBox

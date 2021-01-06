@@ -146,7 +146,8 @@ function About() {
           from the Federal University of Itajubá with a thesis on
           microelectronics. As a programmer I have experience with technologies
           such as Node, React, and React native, having developed and mantained
-          apps and web pages for companies like Nice Alarm Systems and Alcoa.
+          apps and web pages for companies like Nice Alarm Systems and Nano
+          Proxies.
         </Body1>
         <Title2>Contact</Title2>
         <ContactInfoContainer>
