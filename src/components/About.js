@@ -5,7 +5,7 @@ import styled from "@emotion/styled";
 import { Redirect, Switch, Route, Link, useRoute, Router } from "wouter";
 import mailIcon from "./../assets/mailIcon.png";
 import placeIcon from "./../assets/placeIcon.png";
-import profile from "./../assets/profile.JPG";
+import profile from "./../assets/profile.jpg";
 
 let Container = styled.div`
   position: absolute;
@@ -117,7 +117,7 @@ let Profile = styled.img`
   height: 657px;
   left: 176px;
   top: 106px;
-  object-fit: none;
+  object-fit: contain;
 
   border-radius: 18px;
 `;

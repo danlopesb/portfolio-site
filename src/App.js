@@ -3,6 +3,9 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./components/About";
+import Skills from "./components/Skills";
+import Qualifications from "./components/Qualifications";
+import Projects from "./components/Projects";
 import { Redirect, Switch, Route, Link, useRoute, Router } from "wouter";
 
 function App() {
@@ -16,13 +19,13 @@ function App() {
           <About />
         </Route>
         <Route path="/skills">
-          <NavBar />
+          <Skills />
         </Route>
         <Route path="/qualifications">
-          <NavBar />
+          <Qualifications />
         </Route>
         <Route path="/projects">
-          <NavBar />
+          <Projects />
         </Route>
       </Switch>
     </div>
