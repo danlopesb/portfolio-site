@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.a9a80852.chunk.css",
-    "main.js": "/portfolio-site/static/js/main.f88f7164.chunk.js",
-    "main.js.map": "/portfolio-site/static/js/main.f88f7164.chunk.js.map",
-    "runtime-main.js": "/portfolio-site/static/js/runtime-main.c96ea0aa.js",
-    "runtime-main.js.map": "/portfolio-site/static/js/runtime-main.c96ea0aa.js.map",
-    "static/js/2.0c6a7f41.chunk.js": "/portfolio-site/static/js/2.0c6a7f41.chunk.js",
-    "static/js/2.0c6a7f41.chunk.js.map": "/portfolio-site/static/js/2.0c6a7f41.chunk.js.map",
-    "static/js/3.9e7daeda.chunk.js": "/portfolio-site/static/js/3.9e7daeda.chunk.js",
-    "static/js/3.9e7daeda.chunk.js.map": "/portfolio-site/static/js/3.9e7daeda.chunk.js.map",
+    "main.js": "/portfolio-site/static/js/main.98075fc9.chunk.js",
+    "main.js.map": "/portfolio-site/static/js/main.98075fc9.chunk.js.map",
+    "runtime-main.js": "/portfolio-site/static/js/runtime-main.f605dcbe.js",
+    "runtime-main.js.map": "/portfolio-site/static/js/runtime-main.f605dcbe.js.map",
+    "static/js/2.10a376aa.chunk.js": "/portfolio-site/static/js/2.10a376aa.chunk.js",
+    "static/js/2.10a376aa.chunk.js.map": "/portfolio-site/static/js/2.10a376aa.chunk.js.map",
+    "static/js/3.749219c5.chunk.js": "/portfolio-site/static/js/3.749219c5.chunk.js",
+    "static/js/3.749219c5.chunk.js.map": "/portfolio-site/static/js/3.749219c5.chunk.js.map",
     "index.html": "/portfolio-site/index.html",
     "static/css/main.a9a80852.chunk.css.map": "/portfolio-site/static/css/main.a9a80852.chunk.css.map",
-    "static/js/2.0c6a7f41.chunk.js.LICENSE.txt": "/portfolio-site/static/js/2.0c6a7f41.chunk.js.LICENSE.txt",
+    "static/js/2.10a376aa.chunk.js.LICENSE.txt": "/portfolio-site/static/js/2.10a376aa.chunk.js.LICENSE.txt",
     "static/media/arduino.d74cc678.png": "/portfolio-site/static/media/arduino.d74cc678.png",
     "static/media/github.746ec8f0.png": "/portfolio-site/static/media/github.746ec8f0.png",
     "static/media/logo.6ce24c58.svg": "/portfolio-site/static/media/logo.6ce24c58.svg",
@@ -20,9 +20,9 @@
     "static/media/react-2.e68b35f4.svg": "/portfolio-site/static/media/react-2.e68b35f4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c96ea0aa.js",
-    "static/js/2.0c6a7f41.chunk.js",
+    "static/js/runtime-main.f605dcbe.js",
+    "static/js/2.10a376aa.chunk.js",
     "static/css/main.a9a80852.chunk.css",
-    "static/js/main.f88f7164.chunk.js"
+    "static/js/main.98075fc9.chunk.js"
   ]
 }
