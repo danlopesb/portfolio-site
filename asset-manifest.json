@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio-site/static/css/main.a9a80852.chunk.css",
+    "main.js": "/portfolio-site/static/js/main.f88f7164.chunk.js",
+    "main.js.map": "/portfolio-site/static/js/main.f88f7164.chunk.js.map",
+    "runtime-main.js": "/portfolio-site/static/js/runtime-main.c96ea0aa.js",
+    "runtime-main.js.map": "/portfolio-site/static/js/runtime-main.c96ea0aa.js.map",
+    "static/js/2.0c6a7f41.chunk.js": "/portfolio-site/static/js/2.0c6a7f41.chunk.js",
+    "static/js/2.0c6a7f41.chunk.js.map": "/portfolio-site/static/js/2.0c6a7f41.chunk.js.map",
+    "static/js/3.9e7daeda.chunk.js": "/portfolio-site/static/js/3.9e7daeda.chunk.js",
+    "static/js/3.9e7daeda.chunk.js.map": "/portfolio-site/static/js/3.9e7daeda.chunk.js.map",
+    "index.html": "/portfolio-site/index.html",
+    "static/css/main.a9a80852.chunk.css.map": "/portfolio-site/static/css/main.a9a80852.chunk.css.map",
+    "static/js/2.0c6a7f41.chunk.js.LICENSE.txt": "/portfolio-site/static/js/2.0c6a7f41.chunk.js.LICENSE.txt",
+    "static/media/arduino.d74cc678.png": "/portfolio-site/static/media/arduino.d74cc678.png",
+    "static/media/github.746ec8f0.png": "/portfolio-site/static/media/github.746ec8f0.png",
+    "static/media/logo.6ce24c58.svg": "/portfolio-site/static/media/logo.6ce24c58.svg",
+    "static/media/node.20deb7f0.png": "/portfolio-site/static/media/node.20deb7f0.png",
+    "static/media/profile.75dc099e.jpg": "/portfolio-site/static/media/profile.75dc099e.jpg",
+    "static/media/react-2.e68b35f4.svg": "/portfolio-site/static/media/react-2.e68b35f4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c96ea0aa.js",
+    "static/js/2.0c6a7f41.chunk.js",
+    "static/css/main.a9a80852.chunk.css",
+    "static/js/main.f88f7164.chunk.js"
+  ]
+}
