@@ -11,6 +11,7 @@ let Container = styled.div`
   position: absolute;
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
   left: 0px;
   top: 0px;
 
