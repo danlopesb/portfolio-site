@@ -10,7 +10,7 @@ import { Redirect, Switch, Route, Link, useRoute, Router } from "wouter";
 
 function App() {
   return (
-    <div>
+    <Router base="/portfolio-site">
       <Switch>
         <Route path="/">
           <Home />
@@ -28,7 +28,7 @@ function App() {
           <Projects />
         </Route>
       </Switch>
-    </div>
+    </Router>
   );
 }
 
