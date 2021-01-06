@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
+import worker from "./../assets/worker.png";
 
 let Container = styled.div`
   position: absolute;
@@ -28,9 +29,11 @@ let Title = styled.div`
   font-weight: 500;
   font-size: 32px;
   line-height: 38px;
+  text-align: center;
+  padding-top: 20px;
   /* identical to box height */
 
-  color: #0c0a5d;
+  color: black; //#0c0a5d;
   //background-color: blue;
 
   display: flex;
@@ -41,6 +44,7 @@ let Title = styled.div`
 function Sorry() {
   return (
     <Container>
+      <img src={worker} style={{ height: "90px", width: "90px" }} />
       <Title>Coming Soon!</Title>
       <Title style={{ fontSize: "18px" }}>
         The mobile version of this site is under construction
