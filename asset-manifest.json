@@ -1,29 +1,31 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.a9a80852.chunk.css",
-    "main.js": "/portfolio-site/static/js/main.9225a5bc.chunk.js",
-    "main.js.map": "/portfolio-site/static/js/main.9225a5bc.chunk.js.map",
-    "runtime-main.js": "/portfolio-site/static/js/runtime-main.f605dcbe.js",
-    "runtime-main.js.map": "/portfolio-site/static/js/runtime-main.f605dcbe.js.map",
-    "static/js/2.10a376aa.chunk.js": "/portfolio-site/static/js/2.10a376aa.chunk.js",
-    "static/js/2.10a376aa.chunk.js.map": "/portfolio-site/static/js/2.10a376aa.chunk.js.map",
-    "static/js/3.749219c5.chunk.js": "/portfolio-site/static/js/3.749219c5.chunk.js",
-    "static/js/3.749219c5.chunk.js.map": "/portfolio-site/static/js/3.749219c5.chunk.js.map",
+    "main.js": "/portfolio-site/static/js/main.f3ce1adb.chunk.js",
+    "main.js.map": "/portfolio-site/static/js/main.f3ce1adb.chunk.js.map",
+    "runtime-main.js": "/portfolio-site/static/js/runtime-main.180cff33.js",
+    "runtime-main.js.map": "/portfolio-site/static/js/runtime-main.180cff33.js.map",
+    "static/js/2.0521bb47.chunk.js": "/portfolio-site/static/js/2.0521bb47.chunk.js",
+    "static/js/2.0521bb47.chunk.js.map": "/portfolio-site/static/js/2.0521bb47.chunk.js.map",
+    "static/js/3.013d3d36.chunk.js": "/portfolio-site/static/js/3.013d3d36.chunk.js",
+    "static/js/3.013d3d36.chunk.js.map": "/portfolio-site/static/js/3.013d3d36.chunk.js.map",
     "index.html": "/portfolio-site/index.html",
     "static/css/main.a9a80852.chunk.css.map": "/portfolio-site/static/css/main.a9a80852.chunk.css.map",
-    "static/js/2.10a376aa.chunk.js.LICENSE.txt": "/portfolio-site/static/js/2.10a376aa.chunk.js.LICENSE.txt",
+    "static/js/2.0521bb47.chunk.js.LICENSE.txt": "/portfolio-site/static/js/2.0521bb47.chunk.js.LICENSE.txt",
     "static/media/arduino.d74cc678.png": "/portfolio-site/static/media/arduino.d74cc678.png",
     "static/media/github.746ec8f0.png": "/portfolio-site/static/media/github.746ec8f0.png",
     "static/media/logo.6ce24c58.svg": "/portfolio-site/static/media/logo.6ce24c58.svg",
+    "static/media/nano.486d0ad4.jpg": "/portfolio-site/static/media/nano.486d0ad4.jpg",
     "static/media/node.20deb7f0.png": "/portfolio-site/static/media/node.20deb7f0.png",
     "static/media/profile.75dc099e.jpg": "/portfolio-site/static/media/profile.75dc099e.jpg",
     "static/media/react-2.e68b35f4.svg": "/portfolio-site/static/media/react-2.e68b35f4.svg",
+    "static/media/research.5e726310.svg": "/portfolio-site/static/media/research.5e726310.svg",
     "static/media/worker.439cd84d.png": "/portfolio-site/static/media/worker.439cd84d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f605dcbe.js",
-    "static/js/2.10a376aa.chunk.js",
+    "static/js/runtime-main.180cff33.js",
+    "static/js/2.0521bb47.chunk.js",
     "static/css/main.a9a80852.chunk.css",
-    "static/js/main.9225a5bc.chunk.js"
+    "static/js/main.f3ce1adb.chunk.js"
   ]
 }
